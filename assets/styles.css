@@ -1,0 +1,46 @@
+.sidebar {
+	position: fixed;
+	top: 50px;
+	bottom: 0;
+	left: 0;
+	z-index: 100;
+	padding: 48px 0;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: #343a40;
+}
+.sidebar-sticky .nav-link {
+	color: white; /* Set text color of nav links */
+}
+.sidebar-sticky .nav-link:hover {
+	background-color: green; /* Set hover background color of nav links */
+}
+.sidebar-sticky .nav-link:hover .add-new-btn {
+	display: block; /* Show the add new button when hovering over nav links */
+}
+.add-new-btn {
+	display: none; /* Hide the add new button by default */
+}
+.main-content {
+	padding-top: 56px; /* Adjusted padding to accommodate the top bar */
+}
+li.nav-item {
+margin: 5px 0px;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #f8f9fa;
+	padding: 10px 0;
+	text-align: center;
+}
+.sub-menu {
+	display: none;
+	list-style: none;
+	padding-left: 20px;
+}
+
+.nav-item:hover .sub-menu {
+	display: block;
+}
